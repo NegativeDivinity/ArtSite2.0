@@ -1,0 +1,73 @@
+.h-wrap {
+  height: 100vh;
+  background-color: black;
+}
+
+.banner {
+  color: red;
+  text-align: center;
+  padding-top: 10%;
+  font-size: 40px;
+}
+
+.banner-button {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.b-two {
+  width: 20%;
+  margin-left: 40%;
+}
+
+.banner-button a {
+  text-decoration: none;
+  color: black;
+  background-color: red;
+  padding: 20px 60px 20px 60px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+.b-two:hover h4 {
+  opacity: 1;
+  transition: all 1s ease-in;
+}
+
+.b-two h4 {
+  color: red;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 15%;
+  opacity: 0;
+}
+
+@media screen and (max-width: 960px) {
+  .banner {
+    padding-top: 60%;
+    font-size: 15px;
+  }
+
+  .banner-button {
+    text-align: center;
+    margin-top: 30%;
+  }
+
+  .b-two {
+    width: 40%;
+    margin-left: 30%;
+  }
+
+  .banner-button a {
+    text-decoration: none;
+    color: black;
+    background-color: red;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+  }
+
+  .b-two h4 {
+    display: none;
+  }
+}
