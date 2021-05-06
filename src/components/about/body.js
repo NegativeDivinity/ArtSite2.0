@@ -7,7 +7,7 @@ export default function Body() {
   return (
     <div className="a-wrap">
       <div className="a-head">
-        <h1> About The Shitty Artist </h1>
+        <h1> The Shitty Artist </h1>
       </div>
       <div className="about">
         <div className="a-img">
