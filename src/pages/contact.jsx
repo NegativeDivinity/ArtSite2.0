@@ -4,7 +4,7 @@ import Nav from "../components/nav/nav";
 
 import Footer from "../components/footer/footer";
 
-export default function Comissions() {
+export default function Contact() {
   return (
     <>
       <Nav />
