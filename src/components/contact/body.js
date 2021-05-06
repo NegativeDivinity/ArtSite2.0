@@ -41,14 +41,29 @@ export default function Body() {
 
             <h2> Contact Form </h2>
             <h4> Via Email </h4>
-            <div className="form-name">
-              <input name="name" type="text" placeholder="Name"></input>
+            <div className="form-name form-input">
+              <input
+                required
+                name="name"
+                type="text"
+                placeholder="Name"
+              ></input>
             </div>
-            <div className="form-email">
-              <input name="email" type="text" placeholder="Email"></input>
+            <div className="form-email form-input">
+              <input
+                required
+                name="email"
+                type="email"
+                placeholder="Email"
+              ></input>
             </div>
-            <div className="form-text">
-              <textarea cols="17" rows="4" placeholder="Message..."></textarea>
+            <div className="form-text form-input">
+              <textarea
+                required
+                cols="17"
+                rows="4"
+                placeholder="Message..."
+              ></textarea>
             </div>
             <div className="sub-button">
               <button type="submit">Send</button>

@@ -37,7 +37,7 @@
 }
 
 .c-form {
-  width: 20%;
+  width: 25%;
   border-radius: 20px;
   background-color: red;
   padding: 20px;
@@ -46,6 +46,7 @@
 
 .c-form form {
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -60,8 +61,13 @@
   font-size: 20px;
 }
 
+.form-input {
+  width: 60%;
+}
+
 .c-form form input {
   outline: none;
+  width: 100%;
   border: none;
   border-radius: 20px;
   padding: 5px;
@@ -70,6 +76,7 @@
 
 .c-form form textarea {
   outline: none;
+  width: 100%;
   border: none;
   resize: none;
   border-radius: 15px;
@@ -80,6 +87,7 @@
 .sub-button button {
   outline: none;
   border: none;
+  width: 100px;
   border-radius: 30px;
   padding: 10px 30px 10px 30px;
   cursor: pointer;
@@ -124,6 +132,10 @@
   .c-price {
     width: 70%;
     margin: auto;
+  }
+
+  .form-input {
+    width: 90%;
   }
 
   .c-form {
