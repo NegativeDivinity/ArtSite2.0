@@ -36,7 +36,9 @@ export default function Body() {
           </div>
         </div>
         <div className="c-form">
-          <form>
+          <form name="contact" method="post">
+            <input type="hidden" name="form-name" value="contact" />
+
             <h2> Contact Form </h2>
             <h4> Via Email </h4>
             <div className="form-name">
